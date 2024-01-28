@@ -1,4 +1,5 @@
 //Viết một hàm JavaScript để chuyển đổi một chuỗi thành dạng Camel Case.
+//Chưa tối ưu
 let input = "JavaScriptExercises";
 // Thay thế các ký tự không phải chữ và số bằng khoảng trắng " "
 const input1 = input.replace(/[\W_]/g, " ");
